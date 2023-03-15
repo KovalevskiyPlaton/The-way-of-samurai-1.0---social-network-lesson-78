@@ -1,0 +1,37 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems{
+    padding: 10px;
+    color: white;
+}
+.dialogsItems .active{
+    color: gold;
+}
+
+.messages{
+    padding: 10px;
+}
+
+
+.messages.message{
+    color: white;
+}
+
+.feelMessage{
+    margin-top: 50px;
+    resize: none;
+	width: 400px;
+	height: 150px;
+}
+.sendMessage{
+    color: rgb(247, 243, 54);
+    background-color: blue;
+    border-radius: 11px;
+    width: 90px;
+    height: 25px;
+}
+
+
